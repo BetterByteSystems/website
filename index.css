@@ -1,0 +1,71 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #EEE;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+section {
+  background-image: url("images/backdrop.jpg");
+}
+
+#main-image-container {
+  position: absolute;
+  height: 100px;
+  top: 200px;
+  left: 200px;
+}
+
+#main-image-container img {
+  height: 100%;
+}
+
+.hero {
+  text-align: center;
+  border-radius: 10px;
+  max-width: 50vw;
+  padding: 100px;
+}
+
+.hero h1 {
+  font-size: 8rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.hero h2 {
+  font-size: 5rem;
+}
+
+.hero h3 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.hero p {
+  font-size: 2rem;
+}
+
+#attribution {
+  display: inline;
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
